@@ -1,0 +1,110 @@
+/* &display=swap */
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Taviraj&display=swap');
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+* {
+	font-family: lato;
+	font-size: 16px;
+}
+.wrapper {
+	max-width: 390px;
+	margin: 0px auto;
+	padding-top: 180px;
+	color: #424551;
+}
+
+/* ================================================================ */
+header {
+	margin: 0px 0px 20px 0px;
+}
+
+.under_title {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin: 0px 0px 8px 0px;
+
+}
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin: 0px 0px 40px 0px;
+	
+}
+.list {
+	margin: 0px 0px 48px 0px;
+}
+.list li{
+	line-height: 26px;
+	margin: 0px 0px 12px 0px;
+	padding-left: 33px;
+
+}
+.list li:last-child {
+	margin-bottom: 0px;
+}
+.list li::before{
+	content: "";
+	background: url("../img/check.png") 0 0 / 16px no-repeat;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+	margin: 0px 17px  0px -33px;
+}
+/* Обрезаеца иконка если переместить на 2 пикселя вниз */
+.button {
+	display: inline-block;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	padding: 0px 32px;
+	max-height: 44px;
+	line-height: 44px;
+	letter-spacing: 0.6px;
+	font-size: 14px;
+	color: #FFFFFF;
+	max-width: 162px;
+}
+.button:hover {
+	margin: 1px 0px -1px 0px;
+	background: linear-gradient(55.95deg, #FF3F3A 20%, #F75E05 100%);
+}
+.button:active {
+	max-width: 161px;
+	max-height: 43px;
+	margin-bottom: 0px;
+	background: linear-gradient(55.95deg, #FF3F3A 50%, #F75E05 100%);
+}
+
+.container_button {
+	margin: 0px 0px 20px 0px;
+}
+
+.text {
+	font-family: Taviraj;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 40px;
+	color: #333333;
+}
+.text::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 65px;
+	background-color: #333333;
+	margin: 8px 0px 0px 0px;
+}
+main {
+	margin: 0px 0px 20px 0px
+}
